@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Son Videolar — ERHALO24</title>
+<meta name="description" content="ERHALO24 — en son YouTube, Instagram ve TikTok içerikleri.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="topbar">
+    <div class="topbar__brand">
+      <img src="assets/logo.png" alt="ERHALO24 mühür">
+      <span><b>ERHALO24</b><small>SCP:SL İçerik Arşivi</small></span>
+    </div>
+    <button class="nav-toggle" aria-label="Menüyü aç" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="nav-scrim"></div>
+  <nav class="nav-panel" aria-label="Site menüsü">
+    <div class="nav-panel__eyebrow">Erişim Menüsü</div>
+    <a href="index.html"><span class="idx">01</span> Ana Sayfa</a>
+    <a href="index.html#hakkimda"><span class="idx">02</span> Hakkımda</a>
+    <a href="index.html#sunucular"><span class="idx">03</span> Girdiğim Sunucular</a>
+    <a href="index.html#araclar"><span class="idx">04</span> Kullandığım Araçlar</a>
+    <a href="index.html#hesaplarim"><span class="idx">05</span> Hesaplarım</a>
+    <a href="index.html#onerilen"><span class="idx">06</span> Önerdiğim Sunucu</a>
+    <a href="videos.html"><span class="idx">07</span> Son Videolar</a>
+  </nav>
+
+  <!-- ============ LOG HEADER ============ -->
+  <section class="log-hero">
+    <div class="container">
+      <div class="num reveal">§07 — VİDEO GÜNLÜĞÜ</div>
+      <h1 class="reveal">Son Videolar</h1>
+      <p class="reveal">YouTube, Instagram ve TikTok'ta paylaştığım en güncel video ve short içerikler burada, tek ekrandan izlenebilir.</p>
+    </div>
+  </section>
+
+  <!-- ============ FEED GRID (JS ile dolduruluyor) ============ -->
+  <div class="container">
+    <div class="feed-grid reveal" id="feed-grid">
+      <!-- monitor kartları js/videos.js içindeki FEEDS listesinden otomatik oluşturulur -->
+    </div>
+  </div>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="site-footer__nav">
+        <a href="index.html#hakkimda">Hakkımda</a>
+        <a href="index.html#sunucular">Sunucular</a>
+        <a href="index.html#araclar">Araçlar</a>
+        <a href="index.html#hesaplarim">Hesaplarım</a>
+        <a href="index.html#onerilen">Önerdiğim Sunucu</a>
+      </nav>
+      <small>ERHALO24 — SCP: Secret Laboratory İçerik Arşivi</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/videos.js"></script>
+</body>
+</html>
